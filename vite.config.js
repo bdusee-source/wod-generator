@@ -4,7 +4,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
 
   return {
-    base: '/wod-generator/', // uncomment voor GitHub Pages (repo subfolder)
+    base: '/crossfit/', // uncomment voor GitHub Pages (repo subfolder)
     build: {
       outDir: 'dist',
     },
